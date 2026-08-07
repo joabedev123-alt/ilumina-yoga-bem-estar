@@ -124,13 +124,26 @@ export const Footer: React.FC = () => {
         {/* BOTTOM COPYRIGHT LINE */}
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs font-light text-ilumina-creme/50">
           <p>© ILUMINA — Yoga & Bem-Estar. Todos os direitos reservados.</p>
-          <div className="flex items-center gap-6">
+          
+          <div className="flex flex-wrap items-center justify-center gap-6">
             <a href="#privacidade" className="hover:text-ilumina-creme transition-colors">
               Política de Privacidade
             </a>
             <span className="opacity-40">•</span>
             <a href="#termos" className="hover:text-ilumina-creme transition-colors">
               Termos de Uso
+            </a>
+            <span className="opacity-40">•</span>
+            <a
+              href="https://camaly.com.br/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-ilumina-gold transition-colors inline-flex items-center gap-1 font-medium text-ilumina-creme/70"
+            >
+              <span>Produzida com</span>
+              <span className="text-emerald-400">💚</span>
+              <span>por</span>
+              <strong className="text-ilumina-gold hover:underline">CAMALY</strong>
             </a>
           </div>
         </div>
