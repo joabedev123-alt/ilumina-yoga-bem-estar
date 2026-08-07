@@ -46,17 +46,12 @@ export const Header: React.FC = () => {
         
         {/* LOGO */}
         <NavLink to="/" className="group flex items-center gap-3">
-          <div className="w-9 h-9 rounded-full bg-ilumina-marrom text-ilumina-creme flex items-center justify-center font-serif text-xl group-hover:bg-ilumina-gold transition-colors duration-300 shadow-sm">
-            I
-          </div>
-          <div className="flex flex-col">
-            <span className="font-serif text-2xl sm:text-3xl tracking-widest text-ilumina-texto group-hover:text-ilumina-marrom transition-colors duration-300 leading-none">
-              ILUMINA
-            </span>
-            <span className="text-[10px] tracking-[0.25em] uppercase text-ilumina-marrom/70 font-medium">
-              Yoga & Bem-Estar
-            </span>
-          </div>
+          <img
+            src="/imagem/IMG_9241.PNG"
+            alt="ILUMINA — Yoga & Bem-Estar"
+            className="h-[3cm] w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+            style={{ height: '3cm' }}
+          />
         </NavLink>
 
         {/* DESKTOP MENU */}

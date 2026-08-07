@@ -15,14 +15,14 @@ export const Footer: React.FC = () => {
           
           {/* COLUMN 01 */}
           <div className="space-y-4">
-            <div className="flex items-center gap-3">
-              <div className="w-8 h-8 rounded-full bg-ilumina-gold text-ilumina-texto flex items-center justify-center font-serif text-lg font-bold">
-                I
-              </div>
-              <span className="font-serif text-2xl tracking-widest text-ilumina-creme">
-                ILUMINA
-              </span>
-            </div>
+            <NavLink to="/" className="inline-block">
+              <img
+                src="/imagem/IMG_9241.PNG"
+                alt="ILUMINA — Yoga & Bem-Estar"
+                className="h-[3cm] w-auto object-contain brightness-0 invert opacity-95 transition-opacity hover:opacity-100"
+                style={{ height: '3cm' }}
+              />
+            </NavLink>
             <p className="text-sm text-ilumina-creme/70 font-light leading-relaxed">
               Um espaço para cuidar do corpo, acalmar a mente e tornar o autocuidado parte da vida real.
             </p>
