@@ -38,8 +38,8 @@ export const Header: React.FC = () => {
     <header
       className={`fixed top-0 left-0 right-0 z-40 transition-all duration-500 ${
         isScrolled
-          ? 'glass-nav py-3.5 shadow-soft border-b border-ilumina-areia/20'
-          : 'bg-transparent py-5'
+          ? 'glass-nav py-1 shadow-soft border-b border-ilumina-areia/20'
+          : 'bg-transparent py-1.5'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
