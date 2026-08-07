@@ -49,8 +49,7 @@ export const Header: React.FC = () => {
           <img
             src="/imagem/IMG_9241.PNG"
             alt="ILUMINA — Yoga & Bem-Estar"
-            className="h-[3cm] w-auto object-contain transition-transform duration-300 group-hover:scale-105"
-            style={{ height: '3cm' }}
+            className="h-[2cm] sm:h-[3cm] max-h-[3cm] w-auto object-contain transition-transform duration-300 group-hover:scale-105"
           />
         </NavLink>
 
